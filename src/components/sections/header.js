@@ -35,7 +35,7 @@ const Header = () => {
             </h1>
             <h2>
             Happy and motivated staff are key to a productive workforce and a positive customer experience. In turn this keeps the revenue flowing.
-
+            <br />
             Understanding how engaged a workforce is will become an increasingly important undertaking. We provide a straightforward service to measure engagement and we provide insight and actionable statements to guide your next steps.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
@@ -59,7 +59,7 @@ const Header = () => {
 export default Header
 
 const HeaderWrapper = styled.header`
-  background-color: #f8f8f8;
+  background-color: #F9A826;
   padding: 160px 0 80px 0;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-saas-marketing",
+  "name": "Azimuth Insights",
   "private": true,
-  "description": "A simple one page marketing starter for saas companies",
+  "description": "Employee Engagement Services",
   "version": "0.1.0",
-  "author": "Keegan Burkett <keegan.t.marciniak@gmail.com>",
+  "author": "David Seacombe",
   "dependencies": {
     "gatsby": "^2.24.47",
     "gatsby-image": "^2.4.16",

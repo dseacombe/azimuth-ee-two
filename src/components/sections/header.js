@@ -27,11 +27,9 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Heading-Heading</Subtitle>
+            <Subtitle>How happy are your workforce?</Subtitle>
             <h1>
-              Employee
-              <br />
-              Engagement
+              Employee Engagement
             </h1>
             <h2>
             Happy and motivated staff are key to a productive workforce and a positive customer experience. In turn this keeps the revenue flowing.

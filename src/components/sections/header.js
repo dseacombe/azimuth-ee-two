@@ -39,7 +39,7 @@ const Header = () => {
               <HeaderButton>Learn More</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have an account?{" "}
+              Already with us?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
             </FormSubtitle>
           </HeaderTextGroup>

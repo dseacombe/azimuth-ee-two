@@ -29,20 +29,20 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle>Heading-Heading</Subtitle>
             <h1>
-              All your money,
+              Employee
               <br />
-              one account
+              Engagement
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+            Happy and motivated staff are key to a productive workforce and a positive customer experience. In turn this keeps the revenue flowing.
+
+            Understanding how engaged a workforce is will become an increasingly important undertaking. We provide a straightforward service to measure engagement and we provide insight and actionable statements to guide your next steps.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
+              <HeaderButton>Learn More</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
+              Already have an account?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
             </FormSubtitle>
           </HeaderTextGroup>

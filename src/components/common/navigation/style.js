@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   width: 100%;
   top: 0;
   z-index: 1000;
-  background: white};
+  background: white;
   transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 `
 
@@ -94,7 +94,7 @@ export const ActionsContainer = styled.div`
     font-family: ${props => props.theme.font.normal};
     ${props => props.theme.font_size.xsmall};
     color: white;
-    background: #098b8c;
+    background: #F9A826;
     border-radius: 4px;
     padding: 10px 16px;
     text-transform: uppercase;

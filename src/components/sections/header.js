@@ -27,7 +27,7 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>How happy are your workforce?</Subtitle>
+            <Subtitle>How happy is your workforce?</Subtitle>
             <h1>
               Employee Engagement
             </h1>

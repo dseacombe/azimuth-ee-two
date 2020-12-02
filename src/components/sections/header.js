@@ -33,7 +33,7 @@ const Header = () => {
             </h1>
             <h2>
             Happy and motivated staff are key to a productive workforce and a positive customer experience. In turn this keeps the revenue flowing.
-            <br />
+            <br /><br />
             Understanding how engaged a workforce is will become an increasingly important undertaking. We provide a straightforward service to measure engagement and we provide insight and actionable statements to guide your next steps.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
@@ -91,6 +91,7 @@ const HeaderTextGroup = styled.div`
   h2 {
     margin-bottom: 24px;
     ${props => props.theme.font_size.regular}
+    color: ${props => props.theme.color.header};
   }
 
   p {
@@ -124,11 +125,11 @@ const FormSubtitle = styled.span`
 `
 
 const FormSubtitleLink = styled(Link)`
-  color: ${props => props.theme.color.secondary};
+  color: ${props => props.theme.color.header};
   padding-bottom: 1px;
   margin-left: 8px;
   text-decoration: none;
-  border-bottom: 1px solid ${props => props.theme.color.secondary};
+  border-bottom: 1px solid ${props => props.theme.color.primary};
 `
 
 const HeaderInput = styled.input`

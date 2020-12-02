@@ -161,7 +161,7 @@ const HeaderInput = styled.input`
 const HeaderButton = styled.button`
   font-weight: 500;
   font-size: 14px;
-  color: white;
+  color: black;
   letter-spacing: 1px;
   height: 60px;
   display: block;
@@ -169,7 +169,7 @@ const HeaderButton = styled.button`
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
-  background: ${props => props.theme.color.secondary};
+  background: white;
   border-radius: 4px;
   padding: 0px 40px;
   border-width: 0px;
